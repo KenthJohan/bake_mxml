@@ -2,24 +2,16 @@
 	"id": "mxml",
 	"type": "package",
 	"value": {
-		"language": "cpp",
+		"language": "c",
 		"public": true,
 		"use": []
 	},
-	"lang.cpp": {
-		"cpp-standard": "c++11",
+	"lang.c": {
+		"c-standard": "c11",
 		"export-symbols": true,
 		"static": true,
 		"defines": [],
-		"cppflags": [
-			"-fno-threadsafe-statics",
-			"-Werror",
-			"-Wall",
-			"-Wpedantic",
-			"-Wextra",
-			"-Wno-error=pedantic",
-			"-Wno-error=unused-variable"
-		],
+		"cflags": [],
 		"lib": []
 	}
 }
