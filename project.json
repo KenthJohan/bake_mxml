@@ -7,11 +7,18 @@
 		"use": []
 	},
 	"lang.c": {
-		"c-standard": "c11",
+		"c-standard": "c99",
 		"export-symbols": true,
 		"static": true,
-		"defines": [],
-		"cflags": [],
+		"defines": [
+			"_FORTIFY_SOURCE=3",
+			"_GNU_SOURCE",
+			"_REENTRANT",
+			"_THREAD_SAFE"
+		],
+		"cflags": [
+			"-Werror=implicit-function-declaration"
+		],
 		"lib": []
 	}
 }
